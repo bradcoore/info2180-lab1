@@ -1,25 +1,100 @@
 <!DOCTYPE html>
-<html lnag="en">
+<html lang= "en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UACompatible" content="ie=edge">
-	<link href="stles.css" rel="stylesheet" type="text/css">
-	<titel>INFO2180 Lab 1</title>
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>INFO2180 Lab2</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<h1>INFO2180 Lab 1</h1>
-		<p>This is a sample webpage for Lab 1 of Info2180.</p>
-	</header>
-	<main>
-		<h2>apachy, doing this to get em credits no cap</h2>
-		<p>fgbg</p>
-		<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYZGRgaGBwcGhoaHBocHBocGhoaGhwcHhwcIS4lHB4rIRgaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGhISHDQhGiExNDE0NDExNDQ0MTQ0MTQ0NDQ0NDQ0NDQ0ND80NDE0NDQ0NDQ0MTQ/MTQ0NDQ0MTQxMf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYHAQj/xAA6EAABAwIEBAQEBgEDBAMAAAABAAIRAyEEEjFBBVFhcQYigZETobHwFDJCwdHhUgcV8RZicoIjM1P/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/EAB0RAQEBAQADAQEBAAAAAAAAAAABEQIDEiExQVH/2gAMAwEAAhEDEQA/ACeMccAGRnayZwTw++sRUqyG6gHV29+iJ8P+GzIqVRJ1AOg78ytk0aAafVJ11aaTDMPhQxsNECLbKYhOaL3XpF1MTXlJwleOCQCwx4F68pP+/wBkxxQowLirLD+MsP8AFYGTBLgR6a/KVtsUbLE8Xp53BwM5SY6k7npqpz5TznXPuIcLLIc12Zuk6X5IAgjULcuwgcHMNwZWfxHCntMs8zZuOStOi9ePG04NgHMp0mTENEg31ufmStNhXsBMNkix+uqr6bMokXcbS623yCMw4Amx9dDzPZBqdTxIc7ysyECSCBe+5RXxyLkcto+SFc1xMgC4Gthbqi2UcozOEj/ISfl/K2lkY/xpxavTfS+G8taWOdzkggbqy8JeK2V//jrEMqfp2D/76IH/AFGogUab/wBTX5f/AFc026XaPZc5qYgghzbEaEbFU5+wOn0HSJ6kddE9z2tubDp0XBx4pxP/AOz7aXT6Piau0R8R8TzTeqdruLOItNmgu7i3Uqm43x6lQMvd5jcMaPMR/wCOw7rmjPGmJa0ta8CREwMw9UAxxfL3uLnEyZMk9yVTnqc0vXHtPrs/hjjjMQxz2iAHZTm1BgH6ELQsrNOhWA8D4fLSad3lz45TlDT7ALbNqQL/ACS9d7R549YPsYTHOieigw1drxLSnfG2Se+fo+puJZmEmHCdDcXsQsvxTwSx0vw73Mdcls252Gy0r529tio8RinfkZd4FwLBondNOs+62WubPo4tktbVBi0Omys6LyGtDjLoueu6O4rhajHF722JmRcKrc9P76Hrg1lRNfUQ7X2UT6l/VbWwZ8RNqVUK2omvetrYlfVVPxN2ZjhzBRVapqq7EvW9mxV4/hzWUw9jiXFwD5Nr6FUb4m+quOJ4qGOHOI7ys98RC9Nj6OaR25KRmnr7KJmnZSNK5lT2O6dknj/hMY9ei45z9wFgx4nPdb72Xjx6Lw8ljR65yhqKRQ1zCWmxV8Wr5WOjU2Hc2H8rPmnEjoAPTdWHG60+XkJ9SbfQqmZVe6GtjqdwFNbmJfww1n9kIMASc/6GGejnSIHvun4ljnvyjSYHQc1d0+Fy0DMYI02v0Tct18QU6gc+LOtcx5b8gd1asoPaGiJAAidoECTuV7Q4eym3UiBc2JJ781K+sAIzZo+qN6TxNkBjMASBeNO3dRuqNaQXPm9mjTshamKJz6iBAMakqB+NYy7v0MzEwOV7pfatjF/6mcXzPbRa2A3zOPM/p7b+6wTHlWHH8ea9Z9Qn8xt0bsPZB4SmHZpOjSQOZ5Lp5+RHr9MfGo3XhuvcTSLCJ3APbomMaSQBqU2/AxPopcO+XAHciexN011Bwa5xjyuDT3KhpOutui7hh6DwxpY4gBoLSRMi0dhpZT0OIEnKXHNvBt1VT4J4vnpCmQXuYGgCYsdJ+at8dhQCBkbnJkwb9wk9ruVrPmxZYSsWiQRAuWqzruGWdjv3VN+SXkTGo30FirfD1GVWHIbX9DyS2NDH1tctjBDTsvOHUWNEtOYuN3HUkKN9LKyHjfXupsNSZlygQRfXmjppEuJaHtLSPQrAcVw/w3ubtqOxXQSy2/SVj/FNO4dysUeesrXnYpc9lEX3THOUWZWlLgkPTHPUYeoy9bWw2u9AVn2U1Z6ErmwS2tiuxdIOiVVMaL23Ktq7tegVXQYSJS62PoN0fupMwAv98lC4ek/cJzBoDA5BR0ycfPmvSU0fZSLuX2EWOeEwDsvc114dFrRjx+iHruU7nKr4xiMlNzuQPvt+ySmjN8RrBxLgZBNuwsPp80E1+VpvBJBjonsZIDf8GtB9vrKgxOUXcfKNeyC8uRYcKZmlxMcvTkFZMrvMXhjdzt6nUmVj8V4lptdDGGAIB9tNPmp6fHXvGWWBusnb+UfWyJ3ra1rHuIknygy4u19kN/uLWwYnzTqAqKq/OMvxW/8AqPLPUzqqnD8QhrvinJFzFnA9J5pfW1vxrKvGKTmva7yX1DhKxnibxDLDTpmxs47lvIqhxvES8k3v1VZUeq8+ORPrp498prCRcSrHhWE+IS20xY8j+6Vbh72GHtv0Ej3VNz4TFe5xOt05j4uNUZR4PVfdrLc9k2rw6oww5hHXb3W9o3rUNXFOcIPe255lNpG6JqYYCBF1f+HPC76p+I9pZTbe4IL42E7dVveRvW1FwDiRo1GGSAYB6DmunsxXxTnblc0ACd76X59lyHipy1XQIGY2Wh4Fx0sY1jrsnXds7jqtZv1nQKBewzp0IJB9dQieH1bl7PI6TLR+U9wnYPAve0PZVJY4CzgDA6FFHhDgfK5k8jMDtCW6MkXFJ4e0THUdU2zZgGdJ1VZhcPVa4ZwIB1aduqjw2JdTcQ9+Zsm+7b/RDTcxctqA9/ms54kpyDA/MLdwr1tTN2iQQgOMMlnY/IoW59NP3HOnOTMyfj2Fj3DrI7FC/EVubsTs+iA5RvcmNfZMqPW0MQ1XobEOTnu07obFVRYIWsHxIJaY1hQ4eiQ0BS/imsN17+NabpNo13Fr5v7KVht93UDY5x3T2n5/RKOHtcJT2v8A6UI1mf66BSDv99kNHDyLJFNJTJ+iFZ48ws54nxGVjRzOY/8ArcfMhXWKxAaCSeqxHHcV8aoGNzaQSdAJkn75JbT88lwZ4LCXuu8/IG30TeNcMc9vlu3mNUXRwhAAbYCwMT63RuFD2n87Xt0IIg+iXVsYVnBHgnefvdO/2d40ZHqfouhuwzXCR5T96FA1MMZi618laeOfrn5wFZkkSN94VXxXiRquEgDKAJGriNzzWs8ZcQyU/hg3f7x/B0WBKtx9m1DyZLkJ71C56TymqsiSehiHMILTB+7LU8O4+x8MfqTE7LHyvA5brnW56x1XDhp/KRClq4RrxDwCORXM8JxOoz8jyPorhvH8QweZwIOih147/Ktz5JZ9brCcOoUoeWNtuQqrxL4uDRkonzaSNAszi/EtSozISIWfe8pufH92l67/AMT18S57szjJJuUXhax0mFVtKlYVZOOg8J8Q1qTWsDpH6Qbx06K9pcZxrrwI5ht9VzbBVyBY6LqPh/xRUq0wSxrg3yugXEKfSnODMBxLENdJzunaCr2kxrwSWkO3zDmg6fEXWhjo2gadEUzHuOocO7T+yTT5/ginRhoDdROnfkmVSbtfIn/mykw1XMYLgZBmLQouLZgzmBod+y1/Ak+ua8ZxpqVC6IA8oHIC3ugM1kdxyjlquI0d5vfVVWeyrzfnxPqfRTXWCjqvsUpQ9Z6YEb33VNxSqc7YOytHP1VDxF8vPQBCghe+blMzJLyEJA19Hvd/Kka+1t0O4ybzqNPkpgInfn0UrFIeD8vuU8u++6aXCfv0XpE/eiUXrn3QuKr2IFzMfK/ySxdXKIGp06DmgzUBbMQ7f0QtNzyHrui52VYyhmJe2J0nlf8AlWDnmJLYHdRvrQD5RJAnrHVKrirxLKmhcYQ3wXE2kHorRtduYB/lB3BkT16J2Jw7ZgOI+9lqd5SqvpsA1tHO/wDyUPT4+xpIcwg6GPoiqeELIip3a4SOo6ITiOHoPuHtzdJulkaMH4yxjamI8ogNbHeTmnpr8lnahWl8UcOyFrw5rmkRbURe6y9Urq4/I5fJ+1E4rxIr1oVfxH68CKw2Ae8wGlXXAuC54e8WmwWtoYVoGij35c/FuPFv2stw/wAPRDnn07Ifj3Dy05h+URA5LaijsPvmoK2FDpab/cKU8l36rfHM+OZykStTxTw9F2CIm3NZV7IMLo56nTn65vJzU8FRL1pTl0dhnQQuhf6d4prKz2Ew17JFt2wucUdVtfB9B76rHMNmglx6cvVJ1+VXn9dRdj2GWNf5je9tF7TD9ntKHHDwQ14F4n+lHnc27WfUKCqzyE/mYO4N0Q5pLIMnaDuqqnjps9paf8h/KmZWewgmXs5i5HVGFs/rJeMcHkyvA1Jb8pH7rIEWgro3jisPgZ2gOgtIjrb91zZ+MYdWkeibm4HU0U5C1HbFDvxwOhhDVajXmcyp7F9R+UAR7qnq0WFxPVSQW3Dt0xvdC9FxCcK1MOD6orMEO/E3QmluO803kmdtv7RVJyDZAn/n7KJom3LmlNEua/16JA6lInshsbVyN11IHpv8pSU0n0Djq2ZxOwMD039VUY95NwSHAbKxxJDex07IZ7mRcSkXk+JMDVzsBO8g9xY/yq85xvMSI7WVxhwGNgNiTmjlIH7Ae6DxNaHZYgADTeRM+8+ywwEcK94/Kb81ZYbCOLQXGCLHuN/ZBOc/9LnDpcqbCNqh2hLSb/yjg1NisKx1s8DfqQd+nRDuwFOLvCLq4VztwD9VC/hrhvKDaovFvDqf4RxpnM5rmuN72PmkcgJsuX1guwcXwbG0Khe5o8joHMxYLkNdW8dc/lDgK/4Jw9shz/ZULTdHM4g4eyr19R5uVvcO9tgEbTvC59S4u8EchJ9SIWg4Zxo2DtyAufriunjya0wZom02XMjXREUyCAU7IPvqpYtvwJVaCLrGeIOE+bOwdwrjxDxYsIaw339Fnf8AqB8GRKt4+bPqHfUvyqWpTIMEJgCsq+MY/Vt+ar6kTZdE1z1LRK6n/pflyVS7m2PYrlVJdN8DMqNpuLAIJEk6aJO/xTxz66Mx4dIae5Xpwx6Ko4fRcXhzniQCTl0jqUfU4iRZrc3U2Cmp/U5og6r3D0izTTkq9mPdPmpEDm0o5zvLna4kfRGY1DeIOGipSlo01aNwdfUarl/FOGOpug3BEg8wuv4LE5gb9PVUPiHhjHkt5yWnk7cdktuGjlL8OOQULsG3krXFsDHOabOGoKEMc0NrZFe7AjmUx2FaLyVYuVZiqoktlNztJ3kgF7wNFGKLjdS0GAvg6C6LVLcSnO/a7oHT7SU9j7cvu5Qpda4n9+Slo2+/kErQWAqvHVpfGzZHqbk/fJGVK2UF06Ce5VbDXNLs0c5Ewd/VT6V5Q4lwcxo3ba3LNofceykwrGT29ggDWaCGtBcZj3O55nkp69QElojKDEc+/P8ApIpB9XFM5z2kqIYlhME68xZA0S4uAgZZv/SbiMQ2XAaaaa2E37yjgrYnLYASRPa8JhbOpn1/hQteHhjv+0A+lj85905jAtWleNwjDPl0Em5/lNfSOrXmORJLfnoiHYoNBDbnYbA8zzUDXWAIRZU+KMOz8I94mQRIneYPyK5JWN11HxVicjGNdIY94zgcgDdZfinh+mW52VAGkj8xER0KpxcR8k1kYTUVjHtzEM/KLDmY/Ue6GVojTgUdgaxBHQyFXgqalUI0Q6g81vOHcVhhc8gRMDdQYnxUBMDsse6ueahe6VOcTfql7o7iHETUJJ1VaV4SlKrJiduknQmgpwuiB9I3XX/AdMHCy8wMxFzHJc38P8CqYh+VogbuOg/tdD4jwr8NhqDGuk+fPtJkEW7FR76m4r4+a1NGvSDXAPHUDUxsg/8AqCi02YTCyGDpvzAiVb1uDOcfiN0dqORU7dX9ZF/R4/Tdp7GyNpcRbBjLB2mZWZo8If8A4I+jw4fqaQeYS/Wsi0rY6Gh5YYnbWyjxOIZVYchOZvmg69UXw+gMhBMiYE66KidSNOrA3kfVbr43OWqrxDhGVXMLmjNkAJ31P7LN1+CN2c4eq12MLnHORr7AjUKuqsBF0Z18C8ss7gr9nz3VdifD1aZBBlbkU40TWt17ao++B1zKwjOA1hyFuanZwV8XddbJzFEeyF70s4a0PvPoFPTdfX1QrXASb8/sL2pWytJI9OZOg++StUYZxSpMMjQyb6G8KtfVdBAJvrCe6pIJJlQUGFxPLnoFOujmZBuDqtDS7LocpEc7W91I+vTP6L9P3QBxjGDKDaZJjU7egj5Jp4q3/FAR76jSImOwuovgN2v0Qh4ozdvspaPEm/pARarFlPK0DkNfmfqfZB4mXHpyn5nqiqOIa9p1FoPSd0I8wYOv3cLYEqCCDunNxZG5UrWgtJ1sY7jYobO2QSNwfYzCOD7KDx5UJZTndxMemsLB1HmIkwNtlu/HTWOYx7XT5oI30PssE7VU5Q6REpqlcw8kyE+p14ntCTWovD4QuMASUL1g8zUBaUxy1nDeCx5n3HLqn8T4axzS4N8yn7zVPS5rGwlCIfRg6KEtVJ1E7DVNhqmVwdyM+yiDVOyieS1saSuqeGuKMe1uWAYuNIPZX9fE03hrR5wyROok6/suK0KjmGxI2sYXQPDH/wBQz1AwagTfuVL0m6tz1vxraFNpEBsfIIl9VoZkZ5iTJ/gewQFLCAgHOXeqsOHUmCYjMDB5gLZIa0NmdMEOHqp2dyCmYnEFjiXszD/IHZQM4hS18zUtoxZ0Hwbu6f2lj8NmAP6wZ9YUVGvScJzyBc9OiMpV2ODnAyJ15IX7G+xk673MLgdyHR1Mhyg/Et3arbxFQiHgaiPnKzr3KV+K8zRbnUzeY9Uw02H9SCJXoIS+xvUUcKP8phMfhBP5lAHpZkPYPRqpn9/RCVKmaWlt9W9x36LzF1IblGpt6DVC/ig9hkQ9tiR7j0P1XZ04+YFc8NNxfkNT2C9OK2LbchPzO6hw+Ge8kh1zzB9pUrWmLvkEcklWhv4hn+B9lO1rXNzBgy9L/JDlg2nunYI5Xxs72zbfuPVYalDKfJTjBsgGIMTHLp3SYwAzF9rfcFQV8XMhpgc+fbosGp8jWXz5SmPxTJ1c+0TEWVeXDkp8M0EZiN4A7araNmCDxEAQ1gAF7ndDVOJTqwdwU6rXaCRIEaiPvmqStWuY0JMdpR0IH8QMbUZ5dRe/RZBjQ48lqq7CQT93WUxDcjz0Nkebqfcxd4fgxIBzWKZU8PHWYTeF8aLSARPUlaqhVD2h1rodXqDzzz0xx4O8G2ivOFcMDBJMk7xorf4bVK0AaJOurVZxITWWCmNMRdQh4CXxkl0+BsZw2mQfKqilwRpdBbb72Wh+KvPjAIzu/gXmG4fgVOJyj2CpuP06FJpEjPsBr/SZxnxMWyymb6F3Lsst56jifM5xudSVXjm/tc/d5nyJab8zhPNbnB4drGA/DLzG5/ZZLhOAe6o0ZTZdF4ZgiIgElPa3Ee8MrYg5gGEMibCADOylxDcS1zXsY6YIPWP+Vd4ZrgLiB9+68fXc524AFu3M90tmqSgKXFcT+qhm9IRjDn/Ph8vt+yeQf8ipGN/7komM4OwmWOcw9DI9QURSwj2Ew5ptcaZvRS0mwZBRj6Ye2RYjTn2QDVBxWXtyGxmWzsdwqGrgHj9M9rrT8Qw5fcCHAW6kISjWJaCRfQ9wp9RTnpmHUXC5B62UbiOq15iLhQPwzDq0eySj7MsH9Usx5LRO4fSdqwKP/aWfZQwfdA+tmJtbQDkEBWrGfIYPMKTEOiYOqbRoZ/KDE/IbldWuefINpVngBxAAyh23+OZQYd/lEhoEC6MdgARYmIiDyiLoKvg7kagGI5kWmPuyAypWVGOs1wJUTqoIF9x9UM+nGx9NU00ibAFDTL3FPEPI1h37qqLANIhOpPeQZEEWdyMoPE03C4FvmO62hPh7wOfspKFdoGV1rkg99j6qqc87kp0k7JdN+j8QGkzz3CDqMbyURYR09wm5Xcz7raM5LEwAJss3xbClxzgei02QRJ10K8Zwx9QgMZ5SNTp7lbnr1peuZWHw+He92Vokq/wZxFGA5ssmOcLa4LgFOlcN827jv25JmLoDkj15dLz48VDeIsO4UjsT1CqOI4RpePh2ebGNFKcA/d0pfh5op+KF5N1AeItAuVA7hx3let4aBstsPJRFPiIjVDY7Gve0tY2535IqhgBs3+FO3DBpvyQnUjdc2sdQ4c9zw1wLZNydO66V4ZwVOhGQAk/qN5Va1s7e6nfhH2LHZTy2Kfru9ROeORv24GlVGZzGtebB4AkKn4jgsRh/M97ckwHNF/bYoDA8ZqM8jm9yL+ysuL8TFbD/AA2yDmBJIMQFueg9bKEw3GQHauPf+Fe4XFsqgxYjUc5WE/DOBgX7LQcKoPose99pAAbvNz9SPmn1rFxWwk/kI6goZ7HsP5CR0uqnEVqrjJcewsB6KPD1a7DIc79kuj6roY/KbtP0VhhsUwwQ7uFW0cc94hzASNQfr2UJNIkggsd8ihoWNG+jPfVVuKw487hobno4aowhwaId+kQ70CEzEB5PKHDrzHSFqE1V557Lz4l4ssvX4y9jnMygwSJ/dTYbjLXN8xyme8hJeVNaEbxK8FQ9VXN4iwgQ8CbJ9PHgCC4T3/tLlZXMzOdCtKDA0fXqkkr1I84lo3UT8cOh9F6kh/WiJ/EGgSRpyj5KH/duw6f2kkgaF/ubdz8go/xrDv8AskksJpxLCbn1sQk8D5T6L1JY0BVKocIBgH3PdQEDmkkkPElJgBBdZpcCf/Eff0Wlo8TYWZmuBEaSPbokklBV8R8TMyltIZ3zHQKvBqvbLzAOw/deJLVj8HQ8xtoLfRFvpJJJaaGtpjmPdPNEcgkksKN5iw117BDZUkkY1SMpuMALQ06DWgTfr1SSVExdFjCR5dEYyiwiJLb25JJJoTpHQoZH6Zra2U9TBMfEki5JvqdB+/uvEk9KYaFLTOBBg8wnOwrHfkqffZJJKZFRwj8wPxG216jkm4vh7nkElsQLcyNkkktCnUG12zbMNxIhF1Mzm5mjK9urT+ockklo1c68ZACvma2A9gMdRLXfMLPGukknaF8Yc07P9ykklZ//2Q==" alt="Image"/>
-	</main>
-	<footer>
-		<p>CopyRight &copy; 2020 apachy.</p>
-	</footer>
+<div class="container">
+
+    <div id="header" class="grid-item">
+        <header class="flex-container">
+            <img src= "https://live.staticflickr.com/34/122530930_6e16f1eb5c.jpg">
+            <h1>Apachy's Blog</h1>
+            <p>"It is what it is 'till it isnt." -Sam Sharpe</p>
+        </header>
+    </div>
+
+    <main id="main">
+        <div class="grid-item"> 
+            <article>
+                <h2 class="blogtitle">First Blog Post</h2>
+                <p class="blogdate">By Max Ehrmann © 1927</p>
+                <p class="blog1">GO PLACIDLY amid the noise and the haste, and remember what peace there may be in silence. As far as possible, without surrender, be on good terms with all persons.
+
+Speak your truth quietly and clearly; and listen to others, even to the dull and the ignorant; they too have their story.
+
+Avoid loud and aggressive persons; they are vexatious to the spirit. If you compare yourself with others, you may become vain or bitter, for always there will be greater and lesser persons than yourself.
+
+Enjoy your achievements as well as your plans. Keep interested in your own career, however humble; it is a real possession in the changing fortunes of time.
+
+Exercise caution in your business affairs, for the world is full of trickery. But let this not blind you to what virtue there is; many persons strive for high ideals, and everywhere life is full of heroism.
+
+Be yourself. Especially do not feign affection. Neither be cynical about love; for in the face of all aridity and disenchantment, it is as perennial as the grass.
+
+Take kindly the counsel of the years, gracefully surrendering the things of youth.
+
+Nurture strength of spirit to shield you in sudden misfortune. But do not distress yourself with dark imaginings. Many fears are born of fatigue and loneliness.
+
+Beyond a wholesome discipline, be gentle with yourself. You are a child of the universe no less than the trees and the stars; you have a right to be here.
+
+And whether or not it is clear to you, no doubt the universe is unfolding as it should. Therefore be at peace with God, whatever you conceive Him to be. And whatever your labors and aspirations, in the noisy confusion of life, keep peace in your soul. With all its sham, drudgery and broken dreams, it is still a beautiful world. Be cheerful. Strive to be happy.
+
+</p>
+                <img id="img1" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP4kBri_dUoOWsYNh9n1Hplg_B4_vu3C7_IQ&usqp=CAU">
+                
+            </article>
+
+        <hr>
+
+            <article>
+                <h2 class="blogtitle">Second Blog Post</h2>
+                <p class="blogdate">October 2,2021 by Unknown</p>
+                <p class="blog2">Let us Pray the Pimp's Prayer. Lord, please pray for the soul of this bitch and guide my pimp hand and make it strong Lord, so that she might learn a hoe's place.
+
+Amen
+</p>
+                
+            </article>
+        </div>  
+
+    </main>
+
+    <aside id="sidebar">
+        <div  class="grid-item">
+
+            <div id="about">
+                <h3>About</h3>
+                <p>Till Dirt do us part. fgbg. </p>
+            </div>
+
+
+            <div id="social">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/bradcoore/" target="_blank">Instagram</a></li>
+                   
+                </ul>
+            </div>
+
+            <div id="archives">
+                <h3>Archives</h3>
+                <ul>
+                    <li><a href="" >July 2021</a></li>
+                    <li><a href="" >August 2021</a></li>                  
+ 		    <li><a href="" >September 2021</a></li>
+                    <li><a href="" >October 2021</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </aside>
+
+    <footer id="footer">
+        <p>Copyright &copy;2020. Apachy</p>
+    </footer>
+</div>
 </body>
 </html>
-
